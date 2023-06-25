@@ -29,15 +29,18 @@ class _DashboardState extends State<Dashboard> {
             isTablet ? Colors.grey[900] : const Color.fromARGB(255, 9, 8, 8),
         items: [
           BottomNavigationBarItem(
-            icon: Image.asset('icon/ball.png', width: isTablet ? 48.0 : 32.0),
+            icon: Image.asset('assets/icon/ball.png',
+                width: isTablet ? 48.0 : 32.0),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Image.asset('icon/stats.png', width: isTablet ? 48.0 : 32.0),
+            icon: Image.asset('assets/icon/stats.png',
+                width: isTablet ? 48.0 : 32.0),
             label: 'Stats',
           ),
           BottomNavigationBarItem(
-            icon: Image.asset('icon/user.png', width: isTablet ? 48.0 : 32.0),
+            icon: Image.asset('assets/icon/user.png',
+                width: isTablet ? 48.0 : 32.0),
             label: 'Settings',
           ),
         ],

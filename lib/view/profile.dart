@@ -16,7 +16,7 @@ class Profile extends StatelessWidget {
         child: Stack(
           children: [
             Image.asset(
-              'images/background.jpg',
+              'assets/images/background.jpg',
               fit: BoxFit.cover,
               width: double.infinity,
               height: double.infinity,
@@ -30,7 +30,8 @@ class Profile extends StatelessWidget {
                     children: [
                       const CircleAvatar(
                         radius: 75,
-                        backgroundImage: AssetImage('images/avatar.jpg'),
+                        backgroundImage:
+                            AssetImage('assets/images/Untitled.png'),
                       ),
                       SizedBox(height: isTablet ? 20 : 10),
                       TextFormField(

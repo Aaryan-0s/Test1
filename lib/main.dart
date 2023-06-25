@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:nba_hub/my_app.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:nba_hub/core/my_app.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(
-    const MyApp(),
+    const ProviderScope(
+      child: MyApp(),
+    ),
   );
 }
